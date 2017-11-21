@@ -1,7 +1,7 @@
 var $product =  '<div class="product" v-for="item in chaordic">' +
-                    '<a v-bind:href=\'item.url.replace("www.boticario.vteximg.com.br", "")\'>' +
+                    '<a v-bind:href=\'item.url\'>' +
                         '<div class="_image">' +
-                            '<img v-bind:src=\'item.images["200x200"].replace("www.boticario.vteximg.com.br", "")\' alt=""/>' +
+                            '<img v-bind:src=\'item.images["200x200"]\' alt=""/>' +
                         '</div>' +
 
                         '<div class="_content">' +
