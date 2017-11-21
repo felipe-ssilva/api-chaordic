@@ -6,9 +6,9 @@
 
 # 1.Estrutura do projeto. Exemplo:
 
-<div class="__vitrines">
-    <chaordic></chaordic>
-</div>
+* <div class="__vitrines">
+    * <chaordic></chaordic>
+* </div>
 
 ### Referência ###
 
