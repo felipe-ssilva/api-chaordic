@@ -10,7 +10,7 @@ var $product =  '<div class="product" v-for="item in chaordic">' +
                             '<div class="_price">' +
                                 '<span class="old-price"> de <span>R$ {{ item.oldPrice }}</span> </span>' +
                                 '<span class="best-price"> por <span>R$ {{ item.price }}</span> </span>' +
-                                '<span class="installment"> em até {{ item.installment.count }} de R$ {{ item.installment.price }}</span>' +
+                                '<span class="installment"> em até {{ item.installment.count }}x de R$ {{ item.installment.price }}</span>' +
                             '</div>' +
                         '</div>' +
                     '</a>' +
