@@ -1,6 +1,6 @@
 # API da Chaordic com Vue.js
 
-### Obervações ###
+### Observações ###
 
 * Nessa estrutura de JS, eu estou consumindo a API da Chaordic com Vue.js. Utilizando a API, temos controle total sobre o layout dos produtos e a estrutura da vitrine. Obs: Essa estrutura foi utilizada em uma loja VTEX.
 
