@@ -1,4 +1,4 @@
-# API da Chaordic com Vue.js
+# API da Chaordic com Vue.js na VTEX
 
 ### Observações ###
 
@@ -7,8 +7,7 @@
 # 1.Estrutura do projeto. Exemplo:
 
 ```html
-<div class="__vitrines">
-	<chaordic></chaordic>
+<div class="_vitrines">
 </div>
 ```
 
