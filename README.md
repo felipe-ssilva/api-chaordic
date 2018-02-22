@@ -7,8 +7,13 @@
 # 1.Estrutura do projeto. Exemplo:
 
 ```html
-<div class="_vitrines">
-</div>
+<!-- Chaordic top -->
+<section class="_vitrines _top"></section>
+<!-- /.Chaordic top -->
+
+<!-- Chaordic middle -->
+<section class="_vitrines _middle"></section>
+<!-- /.Chaordic middle -->
 ```
 
 ### Referência ###
