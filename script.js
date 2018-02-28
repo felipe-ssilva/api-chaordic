@@ -108,8 +108,10 @@
     }
 
     var getChaordic = function(){
+        var urlPage = document.location.origin + document.location.pathname;
+
         $.ajax({
-            url: "https://recs.chaordicsystems.com/v0/pages/recommendations?apiKey=LOJA&deviceId=dev001&url=MINHAURL&name=home&source=desktop&secretKey=MINHAKEY",
+            url: "https://recs.chaordicsystems.com/v0/pages/recommendations?apiKey=LOJA&deviceId=dev001&url="+urlPage+"&name=other&source=desktop&secretKey=MINHAKEY",
             dataType: 'json'
         }).done(function (data) {
             startChaordic(data);
